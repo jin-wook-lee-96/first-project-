@@ -20,8 +20,8 @@ from datetime import date
 # In[341]:
 
 
-df1 = pd.read_csv('final2.csv',encoding = 'cp949')
-qwe = pd.read_excel('폐업_count.xlsx',sheet_name = None)
+df1 = pd.read_csv('data/final2.csv',encoding = 'cp949')
+qwe = pd.read_excel('data/폐업_count.xlsx',sheet_name = None)
 locals().update(qwe)
 
 
